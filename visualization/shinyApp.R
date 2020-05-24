@@ -110,7 +110,7 @@ tif (interactive()) {
           geom_line(aes(color=ASO_Sequence))+
           geom_point(aes(color=ASO_Sequence))
         
-        ggplotly(graphs, tooltip = "text")
+        ggplotly(graphs)
       })
     })
   
